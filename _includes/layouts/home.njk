@@ -6,10 +6,12 @@ section: home
 
 {{ layoutContent | safe }}
 
+
+{#
 <div class="flex-grid flex-grid--wrap w-100">
 {% set postslist = collections.postsLatest %}
     {% for post in postslist | reverse %}
-    <a class="flex-grid__item" href="{{ post.url | url }}">
+    <a class="flex-grid__item flex-grid__item--full-width" href="{{ post.url | url }}">
         <h2 class="home-title">{{ post.data.title }}</h2>
         {% if post.data.summary %}
             <p class="home-summary">
@@ -20,6 +22,7 @@ section: home
     {% endfor %}
 </div>
 
-<div class="flex-grid t-center">
-  <a class="flex-grid__item" href="/posts"><h2 class="home-title m-0">Read all posts →</h2></a>
-</div>
+    <div class="flex-grid t-center">
+        <a class="flex-grid__item" href="/posts"><h2 class="home-title m-0">Read all posts →</h2></a>
+    </div>
+#}

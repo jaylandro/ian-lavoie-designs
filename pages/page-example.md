@@ -1,11 +1,11 @@
 ---
 layout: layouts/page.njk
-title: Page Example
-description: An example page
+title: Photos
+description: Photos of stonework by Ian Lavoie
 tags:
   - nav
-navtitle: Example Page
-date: 2017-01-01
+navtitle: Photos
+date: 2020-04-16
 permalink: /example-page/index.html
 ---
 

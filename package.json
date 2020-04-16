@@ -1,10 +1,10 @@
 {
   "name": "masonry-aspect",
   "version": "1.0.0",
-  "description": "A custom eleventy template with personality.",
+  "description": "Beautiful & High-quality stonework of Ian Lavoie.",
   "scripts": {
     "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
+    "dev": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
