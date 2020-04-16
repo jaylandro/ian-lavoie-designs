@@ -1,5 +1,5 @@
 {
-  "name": "masonry-aspect",
+  "name": "ian-lavoie-designs",
   "version": "1.0.0",
   "description": "Beautiful & High-quality stonework of Ian Lavoie.",
   "scripts": {
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradleytaunt/stacks-11ty"
+    "url": "https://github.com/jaylandro/ian-lavoie-designs"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bradleytaunt/stacks-11ty/issues"
+    "url": "https://github.com/jaylandro/ian-lavoie-designs/issues"
   },
   "homepage": "https://stacks11ty.netlify.com/",
   "devDependencies": {

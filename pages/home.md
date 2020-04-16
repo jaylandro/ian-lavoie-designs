@@ -9,7 +9,7 @@ tags:
   - nav
 ---
 
-<h1 class="c-dark">Masonry Aspect  ⛏️<br> Stonework by Ian Lavoie</h1>
+<h1 class="c-dark">Ian Lavoie Designs ⛏️</h1>
 
 <div class="flex-grid">
 
