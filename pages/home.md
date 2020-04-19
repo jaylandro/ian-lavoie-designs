@@ -13,7 +13,7 @@ tags:
 
 <div class="flex-grid">
 
-  <main class="flex-grid__item flex-grid__item--no-hover flex-grid__item--full-width">
+<main class="flex-grid__item flex-grid__item--no-hover flex-grid__item--full-width">
 
 A brick mason by trade from the age of eighteen, Ian Lavoie built a profitable business before turning to stonework in his early twenties. He honed his craft for a decade, studying the ins and outs of stone masonry, before launching into the Bay Area in 2012.
 
@@ -28,5 +28,6 @@ Today, Ian and his crew bring over twenty years of deep, thoughtful experience t
 |• Patios              |• Fire pits         |
 |• Walkways            |• Stone veneer      |
 |• Flagstone           |• Landscape lighting|
-  </main>
+
+</main>
 </div>

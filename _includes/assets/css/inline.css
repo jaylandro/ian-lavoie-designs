@@ -1,5 +1,5 @@
 :root {
-	--brand-color: #659dbd;
+	--brand-color: #639a67;
 	--link-color: #ffffff;
 	/* --brand-color: #ffe79a;
 	--link-color: #ef5a5a; */
@@ -97,6 +97,16 @@ table tr {
 table td,
 table th {
 	padding: 10px;
+}
+
+footer {
+	color: var(--link-color);
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+
+footer h4 {
+	margin-bottom: 0.2em;
 }
 
 /* The Grid(s) */
