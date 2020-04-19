@@ -18,6 +18,8 @@
   "homepage": "https://stacks11ty.netlify.com/",
   "devDependencies": {
     "@11ty/eleventy": "^0.5.0",
+    "fast-glob": "^3.2.2",
+    "googleapis": "^49.0.0",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^4.0.0"

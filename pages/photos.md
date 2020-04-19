@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/photos.njk
 title: Photos
 description: Photos of stonework by Ian Lavoie
 tags:

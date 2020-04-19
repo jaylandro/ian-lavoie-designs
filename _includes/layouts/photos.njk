@@ -1,0 +1,22 @@
+---
+layout: layouts/base-post.njk
+section: page
+---
+
+<h1>{{ title }}</h1>
+
+<main class="flex-grid flex-grid--wrap w-100">
+
+    {% for image in collections.photos %}
+        <div class="flex-grid__item">
+            <figure><img src="/{{image}}" alt=""></figure>
+        </div>
+    {% endfor %}
+
+    {% for image in collections.photos %}
+        <div class="flex-grid__item flex-grid__item--full-width">
+            <figure><img src="/{{image}}" alt=""></figure>
+        </div>
+    {% endfor %}
+
+</main>
