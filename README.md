@@ -3,5 +3,5 @@
 Beautiful & High-quality stonework of Ian Lavoie
 
 Ian Lavoie
-ianlavoie@yahoo.com
+https://ianlavoiedesigns.com/
 Woodside, CA
