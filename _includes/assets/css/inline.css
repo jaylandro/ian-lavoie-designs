@@ -66,6 +66,12 @@ small {
 	width: 100%;
 }
 
+.small {
+	font-size: 0.8em;
+	opacity: .6;
+	margin-bottom: -10px;
+}
+
 ul,ol {
 	line-height: 29px;
 	margin: 0 0 20px;
@@ -105,8 +111,11 @@ footer {
 	line-height: 1.6em;
 }
 
-footer h4 {
+footer h5 {
 	margin-bottom: 0.2em;
+}
+footer .p-name {
+	font-size: 1.1em;
 }
 
 /* The Grid(s) */
@@ -138,7 +147,7 @@ footer h4 {
     flex-direction: column;
     justify-content: center;
     margin: 20px;
-    padding: 40px;
+    padding: 20px;
     text-decoration: none;
     transition: .3s ease all;
     width: calc(33% - 40px);
