@@ -62,7 +62,7 @@ hr {
 
 small {
 	display: block;
-	font-size: 90%;
+	color: var(--link-color);
 	width: 100%;
 }
 
@@ -107,13 +107,16 @@ table th {
     margin: 0 auto;
     max-width: 1400px;
 }
+
 .flex-grid--wrap {
 	flex-wrap: wrap;
 }
+
 .flex-grid--sb {
 	justify-content: space-between;
 }
-..flex-grid--col {
+
+.flex-grid--col {
 	flex-direction: column;
 }
 
