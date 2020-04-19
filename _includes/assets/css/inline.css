@@ -1,6 +1,8 @@
 :root {
-	--brand-color: #ffe79a;
-	--link-color: #ef5a5a;
+	--brand-color: #659dbd;
+	--link-color: #ffffff;
+	/* --brand-color: #ffe79a;
+	--link-color: #ef5a5a; */
 }
 
 *, *:before, *:after {
