@@ -2,7 +2,6 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
-const fg = require('fast-glob');
 
 module.exports = function(eleventyConfig) {
 
@@ -44,26 +43,6 @@ module.exports = function(eleventyConfig) {
       return minified;
     }
     return content;
-  });
-
-  // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
-    });
-  });
-
-  // only content in the latest `posts/` directory
-  eleventyConfig.addCollection("postsLatest", function(collection) {
-    return collection
-      .getFilteredByGlob('**/posts/*.md')
-      .slice(-9)
-  });
-
-  const galleryImages = fg.sync(['**/google-photos/*', '!**/_site']);
-
-  eleventyConfig.addCollection('photos', function(collection) {
-    return galleryImages;
   });
 
   // Don't process folders with static assets e.g. images

@@ -7,15 +7,17 @@ section: page
 
 <main class="flex-grid flex-grid--wrap w-100">
 
-    {% for image in collections.photos %}
+    {% for image in cloudinaryFiles %}
         <div class="flex-grid__item">
             <a href="#{{image}}">
-                <figure><img src="/{{image}}" alt=""></figure>
+                <figure>
+                    <img src="https://res.cloudinary.com/biglove333/c_scale,e_improve,f_auto,q_auto,w_1500/ianlavoiedesigns/{{image}}" alt="">
+                </figure>
             </a>
         </div>
     {% endfor %}
 
-    {% for image in collections.photos %}
+    {% for image in cloudinaryFiles %}
         <div class="lightbox" id="{{image}}">
             <a href="javascript:history.back();" class="close">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="30" viewBox="0 0 48 48">
@@ -25,7 +27,9 @@ section: page
                     <path fill="none" d="M0 0h48v48H0z"/>
                 </svg>
             </a>
-            <figure><img src="/{{image}}" alt=""></figure>
+            <figure>
+                <img src="https://res.cloudinary.com/biglove333/c_scale,e_improve,f_auto,q_auto,w_1500/ianlavoiedesigns/{{image}}" alt="">
+            </figure>
         </div>
     {% endfor %}
 
