@@ -9,12 +9,22 @@ section: page
 
     {% for image in collections.photos %}
         <div class="flex-grid__item">
-            <figure><img src="/{{image}}" alt=""></figure>
+            <a href="#{{image}}">
+                <figure><img src="/{{image}}" alt=""></figure>
+            </a>
         </div>
     {% endfor %}
 
     {% for image in collections.photos %}
-        <div class="flex-grid__item flex-grid__item--full-width">
+        <div class="lightbox" id="{{image}}">
+            <a href="javascript:history.back();" class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="30" viewBox="0 0 48 48">
+                    <defs/>
+                    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M46 24a22 22 0 11-44 0 22 22 0 1144 0z"/>
+                    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6" d="M16 16l16 16M32 16L16 32"/>
+                    <path fill="none" d="M0 0h48v48H0z"/>
+                </svg>
+            </a>
             <figure><img src="/{{image}}" alt=""></figure>
         </div>
     {% endfor %}

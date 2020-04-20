@@ -155,11 +155,13 @@ footer .p-name {
     transition: .3s ease all;
     width: calc(33% - 40px);
 }
+
 .flex-grid__item:hover {
 	background: var(--link-color);
 	box-shadow: 0 40px 60px 0 rgba(0,0,0,0.2);
     transform: scale(1.05);
 }
+
 .flex-grid__item:hover h2.home-title,
 .flex-grid__item:hover p.home-summary {
 	color: white;
@@ -185,6 +187,32 @@ footer .p-name {
 }
 .flex-grid__item--no-hover p {
 	margin: 0 0 20px 0;
+}
+
+/* Lightbox effect */
+.lightbox {
+	visibility: hidden;
+	opacity: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background: #2d2d2d;
+	transform: scale(0.5);
+	transition: all 0.3s ease-in;
+}
+
+.lightbox:target {
+	box-shadow: 0 40px 60px 0 rgba(0,0,0,0.2);
+	opacity: 1;
+	transform: scale(1);
+	visibility: visible;
+	width: 100vw;
+}
+
+.close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
 }
 
 /* Widths */
